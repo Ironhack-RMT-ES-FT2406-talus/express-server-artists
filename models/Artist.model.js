@@ -16,7 +16,7 @@ const artistSchema = new mongoose.Schema({
   genre: {
     type: [String], // esto define un array de strings como su unico posible valor
     enum: ["rock", "alternative", "grunge", "metal", "indie"] // estos son los unicos posibles valores que se pueden agregar a esta propiedad.
-   } 
+   }
 })
 
 
